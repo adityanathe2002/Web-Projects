@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fighter Gets</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <style>
+    .row {
+      width: 100%;
+    }
+
+    /* .col-lg-4 {
+      border: 1px solid;
+    } */
+
+    .col-lg-4 img {
+      margin-left: 30%;
+
+    }
+
+    body {
+      background-color: rgb(183, 183, 211);
+      /* background: linear-gradient(to right, rgb(8, 8, 39), white,rgb(103, 102, 102)); */
+    }
+
+    #zigzag {
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    #zigzag-1 {
+      margin-top: 30px;
+
+    }
+
+    #fighter {
+      width: 100%;
+    }
+    
+   .footer-f{
+    background-color: black;
+   }
+   
+  </style>
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXng2xS-qIpjJQFWhJghpcn2oLjjgEGrGgfyg4pNsXE0fWp07CQfbGM5BpXlGTGk-y6qA&usqp=CAU"
+          height="40px" width="40px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Conatact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Combat Plane
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Sukhoi Su-30</a></li>
+              <li><a class="dropdown-item" href="#">Tejas</a></li>
+              <li><a class="dropdown-item" href="#">Mig-21</a></li>
+              <li><a class="dropdown-item" href="#">mirage 2000</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Rafale</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- carousal -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://agnipathvayu.cdac.in/AV/img/image_gallery/AVcr01.webp" class="d-block w-100 " height="500px"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.dassault-aviation.com/w_980,f_auto,q_auto,g_center,dpr_auto,c_fill/wp-auto-upload/2/files/2015/02/W1I0345-1.jpg"
+          class="d-block w-100" height="500px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://agnipathvayu.cdac.in/AV/img/image_gallery/AVcr05.webp" class="d-block w-100" height="500px"
+          alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div style="background-color: white; width: 100%; height: 10px;"></div>
+  <!--  Thre circle placeholder -->
+  <section id="zigzag-1">
+    <div class="row">
+      <div class="col-lg-4">
+        <img
+          src="https://images.dassault-aviation.com/w_1200,h_630,f_auto,q_auto,g_center,dpr_auto,c_fill/wp-auto-upload/2/files/2015/02/20130203_Tchad_44_OPFevrier_0070-1.jpg"
+          class="bd-placeholder-img rounded-circle " width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> -->
+        <h2 class="fw-normal" style="margin-left: 25%;"><b>Fighter Gets</b></h2>
+        <p style="margin-left: 5%;">Fighter Aircraft are the main components used by the Indian Air Force to defend the borders of India from external aggression. Indian Air Force has many different types of Fighter Jets in its inventory.</p>
+        <p><a class="btn btn-secondary" href="#" style="margin-left: 30%;">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQneaweQg5gUiYWXFpAzvjVMKLvd7LT_ZHHQshBbSCSGD_9B_UsedfXYA63YuIt8pj1jl8&usqp=CAU"
+          class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> -->
+        <h2 class="fw-normal" style="margin-left: 35%;"><b>AirCraft</b></h2>
+        <p style="margin-left: 5%;">A military transport aircraft, military cargo aircraft or airlifter is a military-owned transport aircraft used to support military operations by airlifting troops and military equipment.</p>
+        <p><a class="btn btn-secondary" href="#" style="margin-left: 30%;">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/HAL_Prachand_%28ZF_4834%29.jpg/1200px-HAL_Prachand_%28ZF_4834%29.jpg "
+          class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> -->
+        <h2 class="fw-normal" style="margin-left: 35%;"><b>Helicopter</b></h2>
+        <p style="margin-left: 5%;">The light-lift utility helicopter used to support various missions. airlift of emergency security forces, security and surveillance of off-base nuclear weapons convoys, and distinguished visitor airlift.</p>
+        <p><a class="btn btn-secondary" href="#" style="margin-left: 30%;">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+  </section>
+  <div style="background-color: white; width: 100%; height: 10px;"></div>
+  <!-- Zigzag  -->
+  <section id="fighter">
+    <section id="zigzag">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1" style="margin-left: 10px;"> HAL PRACHAND Helicopter</h2>
+          <p class="lead" style="margin-left: 10px;">And yes, this is the last block of representative placeholder
+            content. Again, not really intended to be actually read, simply here to give you a better view of what this
+            would look like with some actual content. Your content.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="https://www.bms.co.in/wp-content/uploads/2014/10/Indian-Airforce-Day-34.jpg " width="500"
+            height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+            fill="var(--bs-secondary-color)" dy=".3em"></text>
+          <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="zigzag">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1" style="margin-left: 10px;">HAL RUDRA</h2>
+          <p class="lead" style="margin-left: 10px;">Another featurette? Of course. More placeholder content here to
+            give you layout would work with some actual real-world content in place.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Advanced_Light_Helicopter_ALH_Rudra_%28cropped%29.jpg/450px-Advanced_Light_Helicopter_ALH_Rudra_%28cropped%29.jpg"
+            width="500" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+            fill="var(--bs-secondary-color)" dy=".3em"></text>
+          <!-- <svg class="featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="zigzag">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1" style="margin-left: 10px;"> HAL PRACHAND Helicopter</h2>
+          <p class="lead" style="margin-left: 10px;">And yes, this is the last block of representative placeholder
+            content. Again, not really intended to be actually read, simply here to give you a better view of what this
+            would look like with some actual content. Your content.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="https://www.bms.co.in/wp-content/uploads/2014/10/Indian-Airforce-Day-34.jpg " width="500"
+            height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+            fill="var(--bs-secondary-color)" dy=".3em"></text>
+          <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="zigzag">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1" style="margin-left: 10px;">HAL RUDRA</h2>
+          <p class="lead" style="margin-left: 10px;">Another featurette? Of course. More placeholder content here to
+            give you layout would work with some actual real-world content in place.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Advanced_Light_Helicopter_ALH_Rudra_%28cropped%29.jpg/450px-Advanced_Light_Helicopter_ALH_Rudra_%28cropped%29.jpg"
+            width="500" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+            fill="var(--bs-secondary-color)" dy=".3em"></text>
+          <!-- <svg class="featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg> -->
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary" style="background-color: blue;">
+  <div id="footer-f" style="background-color:beige">
+    <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="" aria-label="Bootstrap">
+            <img src="https://static.thenounproject.com/png/59845-200.png"width="40" height="32" alt="">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg> -->
+            <span class="fs-5">AirForce</span>
+          </a>
+          <ul class="list-unstyled small">
+            <li class="mb-2">Designed and built with all the love in the world by the <a href="">AirForce team</a> with the help of <a href="">our contributors</a>.</li>
+            <li class="mb-2">Code licensed <a href="" target="_blank" rel="license noopener">MIT</a>, docs <a href="" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
+            <li class="mb-2">Currently v5.3.3.</li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="/">Home</a></li>
+            <li class="mb-2"><a href="">Docs</a></li>
+            <li class="mb-2"><a href="">Examples</a></li>
+            <li class="mb-2"><a href="">Icons</a></li>
+            <li class="mb-2"><a href="">Themes</a></li>
+            <li class="mb-2"><a href="">Blog</a></li>
+            <li class="mb-2"><a href="" target="_blank" rel="noopener">Swag Store</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Guides</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="">Getting started</a></li>
+            <li class="mb-2"><a href="">Starter template</a></li>
+            <li class="mb-2"><a href="">Webpack</a></li>
+            <li class="mb-2"><a href="">Parcel</a></li>
+            <li class="mb-2"><a href="">Vite</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Projects</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="" target="_blank" rel="noopener">Bootstrap 5</a></li>
+            <li class="mb-2"><a href="" target="_blank" rel="noopener">Bootstrap 4</a></li>
+            <li class="mb-2"><a href="" target="_blank" rel="noopener">Icons</a></li>
+            <li class="mb-2"><a href="" target="_blank" rel="noopener">RFS</a></li>
+            <li class="mb-2"><a href="" target="_blank" rel="noopener">Examples repo</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Community</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="" target="_blank" rel="noopener">Issues</a></li>
+            <li class="mb-2"><a href="" target="_blank" rel="noopener">Discussions</a></li>
+            <li class="mb-2"><a href="" target="_blank" rel="noopener">Corporate sponsors</a></li>
+            <li class="mb-2"><a href="" target="_blank" rel="noopener">Open Collective</a></li>
+            <li class="mb-2"><a href="" target="_blank" rel="noopener">Stack Overflow</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div> 
+  </footer>
+ 
+ <!-- footer end -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
